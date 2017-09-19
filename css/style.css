@@ -8,4 +8,62 @@ body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   margin: 0;
+  background: url("/img/bgtile.png") repeat-x;
+}
+
+.content{
+  display:flex;
+}
+.topMargin{
+  display: block;
+  height: 100px;
+}
+.sideMargin {
+  display: flex;
+  justify-content: flex-start;
+  min-width: 50px;
+  height: 100%;
+}
+#phone{
+  display: flex;
+}
+.top{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 30px;
+  width: 490px;
+}
+button {
+  background-color: #1c5380;
+  align-self: flex-end;
+}
+main{
+  background: url('/img/frame.png') no-repeat;
+  margin: 10px 10px 10px 30px;
+}
+
+h1, p {
+  text-align: left;
+  padding: 10px;
+  width: 510px;
+  margin: 0;
+}
+img.download {
+  margin-left: 10px;
+}
+
+footer{
+  text-align: center;
+}
+
+footer li{
+  list-style-type: none;
+  font-family: impact;
+  display: inline;
+  margin: 5px;
+  color: #1c5380;
+}
+
+footer li:last-child {
+  color: grey;
 }
