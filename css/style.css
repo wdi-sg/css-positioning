@@ -3,9 +3,120 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
+html{
+  height: 100%;
+}
 
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   margin: 0;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.background {
+  background-image: url("../img/bgtile.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 35%;
+  width: 100%;
+  color: white;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.wrapper {
+  /*border: 2px solid blue;*/
+  width: 75%;
+  height: 73%;
+  display: flex;
+}
+
+.left {
+  height: 100%;
+  padding: 5px 20px;
+  /*border: 2px solid brown;*/
+}
+
+.right {
+  align-self: baseline;
+  height: 100%;
+  padding: 10px 30px;
+  width: 500px;
+  /*border: 2px solid pink;*/
+}
+
+.nav {
+  margin: 10px 0;
+  width: 105%;
+  display: flex;
+  height: 12%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 5px;
+  /*border: 2px solid green;*/
+
+}
+
+button {
+  background-color: #1c5380;
+  border-radius: 5px;
+  border-color: #1c5380;
+  padding:5px;
+  width: 80px;
+  height:30px;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+span {
+  margin-left: 9px;
+}
+
+.info {
+  background-image: url("../img/frame.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+  height: 80%;
+  margin: 5px 5px;
+  padding: 15px 15px;
+  /*border: 2px solid yellow;*/
+}
+
+h2 {
+  color: #1c5380;
+  padding: 0 15px;
+}
+
+p {
+  padding: 0 15px;
+}
+
+.download {
+  width: 100%;
+  height: 15%;
+  padding-left: 15px;
+  /*border: 2px solid purple;*/
+}
+
+li {
+  color: #1c5380;
+  text-transform: uppercase;
+  font-weight: bold;
+  list-style-type: none;
+  display: inline-block;
+  padding: 7px;
+  font-size: 10px;
+}
+
+.copy {
+  color: #A7B5C3;
 }
