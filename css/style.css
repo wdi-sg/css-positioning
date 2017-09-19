@@ -3,9 +3,141 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
+/*.container {
+  position: absolute;
+  margin: 0 auto;
+}*/
+
+
+.logo {
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 500px;
+
+
+}
+
+
+
+.flexbox {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  /*justify-content: space-around;*/
+  position:absolute;
+  top: 90px;
+  width: 100%;
+  margin: 0 auto;
+  /*background-color: beige;*/
+
+}
+h2 {
+  color: #06365f;
+  padding: 0px 15px 0px 15px ;
+
+}
 
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
-  margin: 0;
+  margin: 0 auto;
+
+}
+
+p {
+  padding: 0px 15px 0px 15px ;
+}
+
+span {
+  font-weight:bold;
+
+}
+
+a {
+  color: #1c5380;
+  text-decoration: none;
+}
+.topback {
+  background-image: url(/img/bgtile.png);
+  background-repeat: repeat;
+  width: 1500px;
+  height: 300px;
+
+  /*position: absolute;*/
+}
+
+
+.textbox {
+  background-image: url(/img/frame.png);
+
+  padding: 10px 20px 10px 20px;
+  width: 460px;
+  height: 230px;
+
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: space-evenly;
+  align-items: center;
+  width: 600px;
+  height: 540px;
+  /*background-color: beige;*/
+}
+
+.bar {
+  position: relative;
+
+  margin: 0 auto;
+  width: 700px;
+  top: 380px;
+
+}
+
+.downloads {
+  display: flex;
+  justify-content: flex-start;
+
+  width: 460px;
+}
+
+.downloads img {
+  padding: 20px 10px 0px 15px;
+}
+
+ul {
+  color: grey;
+  font-size: 12px ;
+  font-weight: bold;
+  text-transform: uppercase;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+  align-items: center;
+
+
+}
+
+button {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #1c5380;
+  border-style: solid;
+  border: 1px solid black;
+  border-radius: 3px;
+  color: white;
+  font-weight: bold;
+  /*font-size: 12px*/
+  height: 40px;
+  width: 80px
+
 }
