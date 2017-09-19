@@ -7,5 +7,73 @@ light blue: #1c5380
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
-  margin: 0;
+  margin: 0 auto;
+  position: relative;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 100px auto;
+  max-width: 700px;
+}
+
+h2 {
+  color: #06365f;
+}
+
+.half_wrapper {
+  position: absolute;
+  top: -130px;
+  left: 0;
+  height: 300px;
+  width: 100%;
+  background: linear-gradient(#06365f,#1c5380);
+  z-index: -1;
+}
+
+.left_panel, .right_panel {
+  margin: 0 10px;
+}
+.left_panel {
+  display: inline-block;
+}
+
+.right_panel {
+  display: inline-block;
+}
+
+.main_text {
+  background: white;
+  padding: 10px 20px;
+}
+
+.head {
+  display: flex;
+  flex-align: space-between;
+}
+
+.login {
+  display: flex;
+  width: 30px;
+  flex-align: space-between;
+}
+
+#home_logo {
+  height: 20px;
+  position: absolute;
+  top: 60px;
+}
+
+span {
+  position: absolute;
+  right: 180px;
+  top: 60px;
+  color: white;
+}
+
+footer {
+  display:flex;
+  flex-align: space-between;
 }
