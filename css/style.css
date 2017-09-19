@@ -8,4 +8,83 @@ body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   margin: 0;
+  background-color: #f5f6f7
+}
+#darkblue{
+  position:absolute;
+  top:0px;
+  height: 40%;
+    width: 100%;
+  z-index: -1;
+  background: linear-gradient(to right,
+    #306189,#4f7da3);
+}
+/*#306189*/
+button {
+  background: linear-gradient(to top,
+    #306189,#4f7da3);
+    color:white;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+      padding: 15px;
+      border: 0;
+
+      /* cursor: default; */
+      font: inherit;
+      line-height: normal;
+      overflow: visible;
+
+}
+button img{padding-right: 5px;}
+.logoRow{
+display: flex;
+flex-direction: row;
+justify-content:space-around;
+align-items: center;
+}
+
+.container{
+  width: 850px;
+  margin: 80px auto;
+  display: flex;
+  /*flex-flow: row wrap;*/
+}
+.wrapper{
+width:500px;
+margin-left: auto;
+}
+.phones{
+width: 300px;
+}
+.phones img{
+  /*width: 80%*/
+}
+
+h1{font-size: 20px;
+  color: #06365f}/*change this*/
+
+.mainText {
+background-color: white;
+border-radius: 5px;
+box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+padding: 20px;
+background: linear-gradient(to bottom,
+  #fff,#f5f6f7);
+}
+
+footer{
+  margin: 0 auto;
+  display: flex;
+  flex-direction:row;
+  justify-content: center;
+
+}
+footer li {
+  color: #06365f;
+  text-transform: uppercase;
+  display: inline;
+}
+footer li:last-child{
+  color:grey;
 }
