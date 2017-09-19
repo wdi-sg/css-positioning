@@ -8,4 +8,103 @@ body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   margin: 0;
+  background: white;
+  position: relative;
+  /*display: flex;*/
+}
+
+/*div {
+  border: 0.5px dotted black;
+}*/
+
+.bar{
+  width: 100%;
+  height: 320px;
+  background-color:#1c5380;
+  position: relative;
+  /*display: flex;
+  justify-content: space-around;*/
+}
+
+.container {
+  margin: 50px;
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  position: relative;
+  top: -200px;
+
+}
+
+.content {
+  max-width: 500px;
+  height: 300px;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.advert {
+  background-color: white;
+  margin: 0;
+  padding: 5px 30px 5px 30px;
+}
+
+.phoneimg {
+    margin: 0px 20px;
+}
+.head {
+  max-width: 314px;
+}
+
+.hebutton {
+  width: 500px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.button {
+  width: 100px;
+  height: 40px;
+  display: flex;
+  vertical-align: middle;
+  background-color:  #6097c4;
+  color: white;
+}
+
+span {
+  padding: 10px 5px;
+}
+
+h1 {
+  color: #06365f;
+  font-size: 25px;
+}
+
+.download {
+  margin-top: 50px;
+}
+
+nav {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+li {
+
+  list-style: none;
+  margin: 10px;
+  color: #1c5380;
+  font-weight: bold;
+}
+
+.copyright {
+  color: black;
 }
