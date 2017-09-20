@@ -9,3 +9,116 @@ body {
   font-size: 16px;
   margin: 0;
 }
+
+.top {
+  background: linear-gradient(#1c5380, #06365f);
+  height: 40vh;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+}
+
+.bottom {
+  height: 60vh;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+h3 {
+  color: #06365f;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  position: absolute;
+  top: 13%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 65%;
+}
+
+.left {
+  padding: 0;
+  margin: 0;
+  height: 515px;
+}
+
+.right {
+  display: block;
+  width: 532px;
+  height: 515px;
+  margin: 0;
+}
+
+.banner {
+  width: 530px;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+button {
+  background: linear-gradient(#1c5380, #1c5380, #06365f);
+  color: #ffffff;
+  padding: 5px 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-weight: 500;
+  border: 1px solid #1c5380;
+  box-shadow: 0px 0px 5px #06365f;
+}
+
+.button_logo {
+  margin: 5px 10px 0px 0px;
+}
+
+.tile {
+  width: 430px;
+  height: 350px;
+  padding: 30px 50px;
+  background: url("../img/frame.png");
+  background-size: 100% 100%;
+}
+
+p {
+  line-height: 30px;
+}
+
+.badge {
+  margin-right: 20px;
+}
+
+.footer {
+  width: 65%;
+  margin: 40px auto;
+  display: flex;
+  justify-content: center;
+}
+
+a {
+  display: inline-block;
+  margin: 0 8px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #1c5380;
+
+}
+
+.copyright {
+  display: inline-block;
+  margin: 0 8px;
+  text-transform: uppercase;
+  color: grey;
+}
