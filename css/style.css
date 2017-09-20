@@ -3,9 +3,59 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
+.container {
+  margin: 10px auto;
+  max-width: 350px;
+}
+
+.backgroundColor {
+  position: fixed;
+  top: 0;
+  height: 300px;
+  width: 100%;
+  background: linear-gradient(0deg, #06365f, #1c5380);
+  z-index:-1;
+}
 
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   margin: 0;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 80px 0 10px 0;
+  /*border: 1px solid blue;*/
+}
+
+button {
+  padding: 5px;
+  float: right;
+  background: linear-gradient(0deg, #06365f, #1c5380);
+}
+
+footer {
+  /*border: 1px solid blue;*/
+  margin-top: 10px;
+  text-align: center;
+  width: 100%;
+}
+
+.rightHeader {
+  margin: 10px 0 0 35px;
+  display: flex;
+  flex-wrap: no-wrap;
+}
+
+.igLogo {
+  width:
+}
+
+.rightText {
+  background: white;
+  padding: 10px;
+  margin: 20px 0 0 35px;
 }
