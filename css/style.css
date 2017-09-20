@@ -8,4 +8,99 @@ body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   margin: 0;
+  background-color:white;
+  position: relative;
+  background-image:url("../img/bgtile.png");
+  background-repeat: repeat-x;
+}
+
+.container{
+  max-width: 900px;
+  display: flex;
+  justify-content: center;
+  margin:0 auto;
+  margin-top:40px;
+  width:80%;
+  padding-top: 60px;
+}
+
+h2 {
+  color: #0d3e52;
+}
+
+.right-column{
+  padding-left: 50px;
+  padding-top: 20px;
+}
+
+.header-box{
+  position:relative;
+}
+
+.login{
+  width:85px;
+  height:25px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background: #3a6890; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#6184a3, #3a6890); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#6184a3, #3a6890); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#6184a3, #3a6890); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#6184a3, #3a6890); /* Standard syntax */
+  position:absolute;
+  top:20px;
+  right: 9px;
+  border: 1px solid #06365f;
+  border-radius: 4px;
+  //padding:7px 8px;
+  padding: 0px 8px 9px 8px;
+  color: white;
+}
+
+.login img {
+  margin-top: 7px;
+}
+
+.login span{
+  margin: 0px 0px 0px 8px;
+}
+
+.content{
+  background-image:url("../img/frame.png");
+  background-repeat:no-repeat;
+  width:438px;
+  height:400px;
+  margin-top:15px;
+  padding:10px 33px;
+}
+footer {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight:600;
+  padding-top:23px;
+}
+
+footer ul{
+  list-style: none;
+}
+
+footer ul li{
+  display: inline-block;
+  padding: 0px 6px;
+}
+
+a{
+  color: #7b9894;
+  text-decoration: none;
+}
+
+a:link, a:visited, a:hover, a:active{
+  color: #7b9894;
+  text-decoration: none;
+}
+
+footer ul li span{
+  color: #c0b992;
+  margin-left: 10px;
 }
