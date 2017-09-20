@@ -4,8 +4,67 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+html, body {
+    overflow: auto;
+}
+
+.container {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background: url(../img/bgtile.png);
+  height: 350px;
+  width: auto;
+}
+
+.phonepictures {
+  margin: 150px auto;
+  margin-left: 450px;
+  width: 450px;
+  position: relative;
+  /*float: left;*/
+}
+
+.aside {
+  margin: 180px auto;
+  margin-right: 450px;
+  width: 500px;
+  position: relative;
+  padding: 10px;
+  /*float: left;*/
+}
+
+.footer {
+  width: 70%;
+  margin: auto;
+  margin-top: 350px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.brand {
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  width: 90px;
+  height: 30px;
+  background-color: #06365f;
+  color: white;
+}
+
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   margin: 0;
+}
+
+h1, p {
+  background-color: white;
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+  padding: 5px;
+  font-family: inherit;
 }
