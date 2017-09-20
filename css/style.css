@@ -68,11 +68,6 @@ h3 {
   align-items: center;
 }
 
-.logo {
-  position: relative;
-  top: 10%;
-}
-
 button {
   background: linear-gradient(#1c5380, #1c5380, #06365f);
   color: #ffffff;
