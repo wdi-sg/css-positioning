@@ -3,9 +3,106 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
-
 body {
+  border: 2px solid blue;
+  margin: 0;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
-  margin: 0;
+  background-image: url("../img/bgtile.png");
+  background-repeat: repeat-x;
+  display: flex;
+  padding: 100px;
+  align-self: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.pitch {
+background-image: url("../img/frame.png");
+background-repeat: no-repeat;
+display: flex;
+flex-wrap: wrap;
+align-content: flex-start;
+padding: 20px;
+flex-direction: column;
+}
+
+p {
+  align-content: flex-start;
+  max-width: 450px;
+  /*display: flex;*/
+  /*flex-wrap: wrap;*/
+  align-self: center;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+  justify-content: space-between;
+}
+
+
+/*header {
+  border: 2px solid green;
+  display: inline-block;
+  position: relative;
+  top: auto;
+  right: auto;
+}
+
+.phones {
+  border: 2px solid purple;
+  position: relative;
+  top: auto;
+  left: auto;
+}
+
+.brand {
+  border: 2px solid orange;
+  display: inline;
+}
+
+.home {
+  border: 2px solid red;
+align-items: end;
+justify-content: center;
+}
+
+div {
+  border: 2px solid pink;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-flow: row;
+}
+.frame {
+border: 2px solid pink;
+}
+
+.badge {
+border: 2px solid yellow;
+display: inline;
+position: inherit;
+}*/
+
+footer {
+position : absolute;
+bottom : 0;
+height : 40px;
+margin-top : 40px;
+}
+nav {
+
 }
