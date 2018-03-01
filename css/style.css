@@ -7,5 +7,87 @@ light blue: #1c5380
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
+  background: linear-gradient(#1c5380, #06365f);
+  background-size: 2000px 350px;
+  background-repeat: no-repeat;
   margin: 0;
 }
+
+.frameImg {
+	position: absolute;
+	top: 0;
+	left: 10px;
+	padding: 10px 30px;
+	color: #06365f;
+}
+
+
+.linksBelow {
+	position: absolute;
+	top: 700px;
+	left: 350px;
+	color: #1c5380;
+	font-size: 15px;
+}
+
+.singleLinks {
+	padding: 0px 10px 0px 10px;
+	display: inline-block; 
+}
+
+#iPhone {
+	position: absolute;
+  	top: 150px;
+  	left: 200px;
+  	display: inline;
+}
+
+#Instagram {
+	position: absolute;
+	top: 170px;
+	left: 600px;
+
+
+}
+
+#close-image {
+	position: absolute;
+	top: 190px;
+	left: 1000px;
+	font-size: 14px;
+	text-align: center;
+	background: #1c5380;
+	color: white;
+	border-color: #06365f;
+}
+
+#frame {
+	position: absolute;
+	top: 300px;
+	left: 600px;
+}
+
+#badge-iphone {
+	position: absolute;
+	top: 600px;
+	left: 640px;
+}
+
+#badge-android {
+	position: absolute;
+	top: 600px;
+	left: 840px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
