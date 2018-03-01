@@ -8,4 +8,132 @@ body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   margin: 0;
+  background-repeat:repeat-x;
+  background-image:url('../img/bgtile.png');
+}
+
+main {
+  margin:65px auto 50px auto;
+  width: 85vw;
+  position: relative;
+  height: 75vh;
+}
+
+.hero-pic-container {
+  width:270px;
+  display:inline-block;
+  top:0;
+  left:0;
+  vertical-align:top;
+  margin-right:30px;
+}
+
+.hero-pic, .brand-pic {
+  width:100%;
+}
+
+.hero-pic {
+  display:block;
+  top:0;
+  left:0;
+}
+
+.brand-pic{
+  display:inline-block;
+  max-width: 350px;
+  min-width: 300px;
+}
+
+.content-container {
+  position:relative;
+  display:inline-block;
+  width:60%;
+}
+
+.content-title {
+  color:#06365f;
+  line-height: 1.25em;
+}
+
+.content {
+  padding: 10px 40px 20px 40px;
+  display: block;
+  line-height: 1.5em;
+  background-image:url('../img/frame.png');
+  background-size:contain;
+  background-position:top;
+  background-repeat:no-repeat;
+}
+
+span {
+  font-weight: bold;
+}
+
+.brand-pic-container, .login-container {
+  position:relative;
+  display:inline-block;
+  vertical-align:top;
+}
+
+.brand-pic-container {
+  width:60%;
+  height:80px;
+}
+
+.login-container {
+  top:50%;
+  width:38%;
+  height:80px;
+}
+
+ul {
+  list-style: none;
+  margin: 0 auto;
+  display: block;
+}
+
+.footer-element {
+  display:block;
+  float:left;
+  margin: 5px 10px;
+  text-transform:uppercase;
+  font-size:0.75em;
+  font-weight:bold;
+  color:#1c5380;
+}
+
+.footer-element:last-child {
+  color:#000000;
+}
+
+.login-button {
+  text-align:center;
+  color:#ffffff;
+  display:block;
+  background:linear-gradient(to bottom, #1c5380, #06365f);
+  border-radius:4px;
+  height: 2.5em;
+  line-height: 2.5em;
+  width:100px;
+  margin-left:auto;
+  right:15%;
+  top:15px;
+  position:absolute;
+}
+
+.login-button-img {
+  display:inline-block;
+  vertical-align: middle;
+  position:relative;
+}
+
+.store-links {
+  margin: 0 auto;
+  text-align:center;
+}
+
+@media (max-width:899px) {
+  .hero-pic-container {
+    display: none;
+  }
 }
