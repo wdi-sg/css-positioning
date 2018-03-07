@@ -5,7 +5,174 @@ light blue: #1c5380
 */
 
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  margin: 0;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	margin: 0;
+	background: linear-gradient(to bottom, #557c9f 0%,#396287 240px,white 240px,white 100%) no-repeat; 
+/*	background-image: url(../img/bgtile.png);
+background-repeat: repeat-x;*/
+height:100%
 }
+
+#body {
+	width:1024px;
+	margin: 0 auto;
+	padding-top: 80px;;
+}
+
+#leftColumn {
+	width:37%;
+	max-width: 400px;
+	float:left;
+}
+
+#rightColumn {
+	width: 57% ;
+	max-width:600px;
+	float:left;
+	padding-left:20px;
+}
+
+#footer{
+
+	clear:both;
+	text-align: center;
+	color: #557c9f;
+	padding-top:30px;
+	font-weight: bold;
+}
+
+.right{
+
+	float:right;
+}
+
+.login{
+	background: linear-gradient(to bottom, #557c9f 0%,#396287 200px,white 200px,white 100%) no-repeat; 
+	border-radius: 5px;
+	padding: 15px 10px;
+	font-size: 1.2em;
+	color:white;
+	display: inline;
+
+}
+
+.login:hover{
+	cursor: pointer;
+	background: linear-gradient(to bottom, #3f5e7a 0%,#536e85 200px,white 200px,white 100%) no-repeat; 
+}
+
+
+#content, #contentHead{
+	padding:10px 40px 10px 30px;
+
+}
+
+#content{
+	background-image: url("../img/frame.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;;
+}
+
+h1{
+	color:#557c9f;
+	font-weight: bold;
+}
+
+p{
+	line-height: 1.4em;
+}
+
+.badge{
+	cursor: pointer;
+
+}
+
+.badge:last-child{
+	margin-left: 20px;
+}
+
+#footer a, copyright {
+	margin-right: 10px;
+	color: #557c9f;
+	text-decoration: none;
+}
+
+.copyright{
+	color: grey;
+}
+
+@media only screen and (max-width: 1024px) {
+	body {
+		background: linear-gradient(to bottom, #557c9f 0%,#396287 800px,white 800px,white 100%) repeat-x; 
+		width:100%;
+		margin:0;
+	}
+	#body {
+		width:90%;
+		margin: 0 auto;
+		padding-top: 80px;
+		text-align: center;
+	}
+	#rightColumn, #leftColumn {
+		float:none;
+		width:100%;
+		margin: auto;
+		text-align: center;
+		padding:10px 0;
+	}
+
+	.brand{
+		width:100%;
+	}
+
+	#content p{
+		text-align: left;
+	}
+
+	#content p.badges {
+		text-align: center;
+	}
+
+
+
+	.mobilenewline{
+		display:block;
+	}
+
+	.copyright{
+		text-align: center;
+		padding-top: 20px;
+	}
+
+	#footer{
+		padding:0 30px;
+	}
+
+	.badges{
+		margin-top: 30px;
+	}
+}
+@media only screen and (max-width: 480px) {
+	.badge:last-child {
+		margin:0;
+	}
+
+	#content{
+		min-height:40vh;
+	}
+
+	.badges{
+		margin-top:30px;
+	}
+
+	#footer{
+
+		padding-top:0;
+		text-align: left;
+		line-height: 1.5em;
+	}
+
+
+}
+
