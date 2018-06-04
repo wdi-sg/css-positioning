@@ -48,8 +48,9 @@ header {
 }
 
 .body {
-	background-image: url("/img/frame.png");
+	background-image: url("../img/frame.png");
 	margin: auto;
+	padding: 20px;
 }
 
 .para {
