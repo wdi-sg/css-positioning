@@ -38,21 +38,21 @@ h2 {
 }
 
 .button {
-   width:85px;
-   height:25px;
    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
    background: linear-gradient(#1c5380, rgba(28, 83, 128, 0.7));
+   color: white;
    position: absolute;
+   width:85px;
+   height:25px;
    top: 20px;
-   right: 9px;
+   right: 10px;
    border: 5px solid #06365f;
    border-radius: 4px;
    padding: 0px 8px 9px 8px;
-   color: white;
 }
 
 .button img {
-	margin-top: 7px;
+	margin-top: 10px;
 }
 
 .button span {
@@ -70,7 +70,7 @@ h2 {
 
 footer {
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-	text-align:center;
+	text-align: center;
 	text-transform: uppercase;
 	font-size: 10px;
 	font-weight: 500px;
@@ -83,31 +83,14 @@ footer ul li {
 }
 
 a {
-	color:#7b989a;
+	color: #06365f;
 	text-decoration: none;
 }
 
 footer ul li span {
-	color: #c0b992;
+	color: #1c5380;
 	margin-left: 10px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
