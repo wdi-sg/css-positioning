@@ -9,3 +9,83 @@ body {
   font-size: 16px;
   margin: 0;
 }
+
+#brand {
+  position: relative;
+  bottom: 170px;
+  left: 42%;
+}
+
+#frame {
+  position: relative;
+  left: 170px;
+  top: 140px;
+  z-index: 0;
+}
+
+#home {
+  position: relative;
+  bottom: 200px;
+  left: 5%;
+}
+
+.logIn {
+  position: relative;
+  bottom: 339px;
+  left: 78%;
+  color: #0B7AB5;
+}
+
+#phones {
+  position: relative;
+  right: 60%;
+  top: 250px;
+}
+
+#iPhoneBadge, #androidBadge {
+  position: relative;
+  left: 45%;
+  bottom: 170px;
+}
+
+#iPhoneBadge {
+  padding-right: 10px;
+}
+
+#androidBadge {
+  padding-left: 10px;
+}
+
+.column {
+  width: 400px;
+  position: relative;
+  left: 45%;
+  bottom: 200px;
+}
+
+h2 {
+  position: relative;
+  left: 45%;
+  bottom: 140px;
+  color: #0B7AB5;
+}
+
+div.backgroundColor {
+  background:  #0B7AB5;
+  background: linear-gradient(#0B7AB5 40%, white 60%);
+}
+
+h2#wldsM {
+  position: relative;
+  bottom: 160px
+}
+
+p {
+  line-height: 1.5;
+}
+
+footer {
+  text-align: center;
+  //text-decoration: none;
+  color: #0B7AB5;
+}
