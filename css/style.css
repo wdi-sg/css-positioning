@@ -5,7 +5,82 @@ light blue: #1c5380
 */
 
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
   font-size: 16px;
   margin: 0;
+  background: linear-gradient(to bottom, rgb(64, 100, 137) 0%,rgb(64, 100, 137) 80%,#000000 50%,white 50%,white 100%) no-repeat;
+}
+a{
+  text-decoration: none;
+}
+.container{
+  max-width: 900px;
+  margin: 0 auto;
+}
+.row{
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.column{
+  float: left;
+  width: 50%;
+}
+.mainHeading{
+  color: #1c5380;
+  width: 70%;
+}
+.copytext{
+  font-size: 16px;
+  background: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px 30px 30px 30px;
+  margin-top: 30px;
+}
+.copytext-sub{
+  line-height: 25px;
+}
+.left-image{
+  float: right;
+  margin-right: 85px;
+}
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+li{
+  display: inline;
+}
+.row-first{
+  position: relative;
+  top: 190px;
+}
+.footer{
+  bottom: 0;
+  height: 21%;
+  position: absolute;
+  margin-left: 12%;
+}
+.left {
+  position: relative;
+  float: left;
+  width: 60%;
+}
+.right {
+  float: right;
+  position: relative;
+  width: 37%;
+}
+.login{
+  color: white;
+  margin-top: 10%;
+  margin-left: 40%;
+  background: #478fca;
+  border-radius: 3px;
+  border: none;
+  padding: 5px;
 }
