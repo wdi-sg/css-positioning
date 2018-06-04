@@ -8,4 +8,118 @@ body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   margin: 0;
+  color:black;
+}
+#topFrame{
+	height: 200px;
+	width: 500px;
+	background: linear-gradient(#06365f, #1c5380);
+	margin: 0 auto;
+	width: 100%;
+	height: 400px;
+}
+
+p{
+	color: black;
+	text-align: center;
+}
+nav{
+	display: inline-block;
+	float:right;
+	margin: 0 15px;
+	border-right: 30px;
+
+}
+h2{
+	color: #012C57;
+}
+span{
+	text-font: bold;
+}
+
+#home{
+	height:30px; 
+	width:40px;
+	position: absolute;
+
+}
+.logIn{
+	padding: 10px 20px 10px 40px;
+	border-radius: 6px;
+	background-color:#1c5380;
+	position:absolute;
+	float: left;
+
+	margin-left: 5px;
+	margin-top: 9px;
+    background-repeat: no-repeat;
+}
+.downloads{
+	display:inline-block;
+}
+
+.frame{
+
+ background-image: url("../img/frame.png");
+ text-align: center;
+ padding:12px 10px;
+ /*white-space: nowrap;
+  overflow: hidden;
+ text-overflow: ellipsis; */
+ float: right;
+ height:300px;
+ width:350px;
+ background-repeat: no-repeat;
+}
+
+.topContainer{
+	position:relative;
+}
+
+.right {
+    position: absolute;
+    top: 50%;
+    left: 65%;
+    transform: translate(-50%, -50%);
+    float: right;
+}
+
+.insta img{
+	/* resize images */
+    width: 100%;
+    height: auto;
+    float: left;
+}
+#home{
+	position: relative;
+	
+
+}
+#brand{
+	float: left;
+	height: 60px;
+}
+
+.left{
+position: absolute;
+    top: 50%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    float: left;
+}
+.right{
+	position: absolute;
+	right: 10%;
+
+}.topRight{
+	position: relative;
+}
+#footer{
+position:absolute;
+   bottom:0;
+   left:25%;
+   float: left;
+   width:100%;
+   border-right: 5px;
+   margin-right: 8px;
 }
