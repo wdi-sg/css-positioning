@@ -5,7 +5,56 @@ light blue: #1c5380
 */
 
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
-  margin: 0;
+  background-color: white;
+}
+
+div {
+	column-count: 2;
+}
+
+.logo {
+	background-color: #1c5380;
+	background-size: cover;
+	padding: 100px;
+}
+
+article {
+	background-color: rgba(255,255,255,1);
+	margin: 50px;
+	float: right;
+}
+
+article header {
+	color: #06365f;
+	font-family:'Roboto', sans-serif;
+	font-size: 30px;
+	padding: 0px 0px 15px 0px;
+}
+
+p {
+	font-family:'Roboto', sans-serif;
+	font-size: 14px;
+	padding: 0px 10px 0px 10px;
+}
+
+li {
+	display: inline;
+	padding: 0px 10px 0px 10px;
+}
+
+a {
+	color: #1c5380 ;
+}
+
+.phones {
+	
+}
+
+.copyright {
+	color: gray;
+}
+
+#instagram, #home {
+	margin: 500px 50px 10px 10px;
 }
