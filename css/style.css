@@ -15,7 +15,7 @@ body {
   margin: 0;
   background-image: linear-gradient(#1c5380, #06365f);
   background-repeat: no-repeat;
-  background-size: 100% 40%;
+  background-size: 100% 30%;
 }
 
 .phone {
@@ -83,11 +83,12 @@ a {
     height: 0;
 }
 
-nav {
+footer {
     padding: 20px 40px;
     margin:10px 40px 10px 40px;
     display: inline-block;
-    text-align: left;
+    text-align: center;
+    float: left;
 }
 
 #copyright {
