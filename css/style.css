@@ -8,4 +8,120 @@ body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   margin: 0;
+  background-image: linear-gradient(#1c5380, #06365f);
+  background-repeat: no-repeat;
+  background-size: 100% 40%;
+ 
 }
+
+h2 {
+	color: #1c5380;
+	padding: 20px;
+	margin: 5px;
+	width: 50%;
+	padding-bottom: 5px;
+}
+
+
+p {
+	padding: 20px;
+	padding-top: 5px;
+	margin: 5px;
+
+}
+
+nav {
+	text-align: center;
+	color: #1c5380;
+	margin: 60px;
+}
+
+li {
+	display: inline-block;
+	padding: 10px;
+}
+
+.middleportion {
+	display: inline-block;
+	position: relative;
+	left: 150px;
+	bottom: -50px;
+}
+
+.iphone {
+	display: inline-block;
+	position: relative;
+}
+
+.maincontent {
+	float: right;
+	display: inline-block;
+	max-width: 500px;
+	padding: 20px;
+}
+
+.box {
+	background-image: url(../img/frame.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+.icons {
+	text-align: center;
+	padding-top: 20px;
+}
+
+#copyright {
+	color: grey;
+	opacity: 60;
+}
+
+.loginbox {
+	border: 1px solid #06365f;
+	display: -webkit-inline-box;
+	padding: 0px 10px;
+	position: relative;
+	top: -38px;
+	left: 69px;
+	background-color: #1c5380;
+}
+
+#login {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	text-transform: bold;
+	color: grey;
+
+}
+
+#homebutton {
+	margin-top: 18px;
+	padding-right: 10px;
+}
+
+.abovecontent {
+	display: inline-block;
+}
+
+}
+
+#logo {
+	background: linear-gradient(#06365f, #1c5380);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
