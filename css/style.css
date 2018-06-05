@@ -38,6 +38,7 @@ body {
 }
 
 .login{
+    background-image: linear-gradient(#1c5380, #06365f); 
     padding: 10px;
     margin: 10px;
     border: 1px;
