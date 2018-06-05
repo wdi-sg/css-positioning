@@ -51,16 +51,17 @@ h3{
     font-family: 'Billabong';
 }
 span#box{
-	border-radius: 5px;
-	background-color: #007acc;
-	border:1px solid black ;
 	display:inline-block;
 	position:absolute;
     margin-top: -22%;
     margin-left: 122%;
-    font-size: 14px;
-    padding: 3% 6% 3% 16%;
-    color:white;
+    background: #2f9ce0;
+  	border-radius: 6px;
+  	font-family: Arial;
+  	color: #ffffff;
+  	font-size: 20px;
+  	padding: 10px 20px 10px 47px;
+  	text-decoration: none;
 }
 img#home{
 	position:absolute;
