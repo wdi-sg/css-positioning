@@ -8,4 +8,45 @@ body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   margin: 0;
+  background: linear-gradient(to bottom, rgb(64, 100, 137) 0%,rgb(64, 100, 137) 80%,#000000 50%,white 50%,white 100%) no-repeat;
+}
+
+.container {
+  max-width: 790px;
+  margin: 0 auto;
+}
+
+.row {
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.row-first {
+  margin-top: 100px;
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+.content {
+  background-image: url("../img/frame.png");
+}
+
+h2 {
+  color: #06365f;
+}
+
+nav > a {
+  text-decoration: none;
+  color: #1c5380;
+}
+
+#copyright {
+  color: grey;
 }
