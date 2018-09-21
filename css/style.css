@@ -6,6 +6,83 @@ light blue: #1c5380
 
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  margin: 0;
+  margin: 0 auto;
+  background-image: linear-gradient(to bottom, #1c5380 40%, #1c5380 30%, white 30%, white 0%);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
+
+#main {
+  width: 850px;
+  padding: 100px 0px 100px 0px;
+  margin: 0 auto;
+}
+
+#box-left {
+  width: 350px;
+  float: left;
+}
+
+#box-right {
+  padding: 20px 0 0 0;
+  width: 500px;
+  float: right;
+}
+
+.button {
+  margin: 15px;
+  padding: 8px;
+  background-image: linear-gradient(to bottom, #1c5380, #06365f);
+  border: 1px solid #06365f;
+  border-radius: 4px;
+  vertical-align: middle;
+}
+
+.button a {
+  color: #FFFFFF;
+  font-size: 14px;
+  text-decoration: none;
+  position: relative;
+  bottom: 5px;
+}
+
+.text-box {
+  background-image: url("frame.png");
+  background-repeat: no-repeat;
+  font-size: 15.5px;
+  padding: 20px 40px 20px 40px;
+}
+
+.para {
+  line-height: 1.5;
+}
+
+.badges {
+  padding: 30px 0px 0 0;
+}
+
+div h1 {
+  color: #06365f;
+  font-size: 26px;
+}
+
+footer {
+  clear: both;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 40px 0px 40px 0px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+nav a {
+  padding: 0px 7px 0px 7px;
+  text-decoration: none;
+  color: #1c5380;
+}
+
+nav span {
+  color: #bec0c4;
+  padding: 0 0 0 20px;
+}
+
