@@ -1,0 +1,71 @@
+body{
+  margin: 100px 100px 100px 130px;
+}
+
+.left {
+  display: inline-block;
+  float: left;
+  padding: 30px 120px;
+}
+
+h1 {
+  display: inline-block;
+  margin-right: 80px;
+  margin-top: 40px;
+  color: rgb(54,73,104);
+}
+
+#top{
+  width: 100%;
+  margin-top: 20px;
+}
+
+.head {
+  display: inline-block;
+  float: left;
+  padding: 6px;
+  margin-left: -40px;
+}
+
+button {
+  margin-left: 70px;
+  size: 20px;
+  color: white;
+  padding: 3px;
+}
+
+#login{
+  margin: 0 -10px 0 0;
+}
+
+button div{
+  padding: 10px 10px 10px 45px;
+  font-size: 13px;
+
+}
+
+span {
+  font-weight: bold;
+}
+
+.store{
+  padding: 0 20px;
+}
+
+footer nav {
+  display: inline-block;
+  padding: 40px 40px 40px 250px;
+  margin-right: -20px;
+
+}
+
+footer a {
+  padding: 10px;
+  text-decoration: none;
+  color: rgb(107,134,178);
+}
+
+footer p {
+  display: inline-block;
+}
+
