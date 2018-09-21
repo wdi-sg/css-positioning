@@ -9,3 +9,106 @@ body {
   font-size: 16px;
   margin: 0;
 }
+
+
+#header {
+    background-color: #06365f;
+    height: 40%;
+    width: 100%;
+    position: absolute;
+}
+
+
+#phones {
+  position: absolute;
+  top: 20%;
+  left: 10%;
+}
+
+#title-img {
+  position: absolute;
+  top: 20%;
+  left: 44%;
+}
+
+#title-home {
+    position: absolute;
+    top: 23%;
+    right: 16%;
+    background-color: #1c5380;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+#title-login{
+    float: right;
+    padding-left: 5px;
+    font-weight: bold;
+}
+
+
+#main-text {
+    background-image: url('../img/frame.png');
+    background-repeat: no-repeat;
+    position: relative;
+    top: 244px;
+      left: 43%;
+    width: 40%;
+    padding: 30px;
+}
+
+
+#main-text-head {
+  color: #06365f;
+  font-size: 20px;
+  font-weight: bold;
+    width: 65%;
+}
+
+#mid-text {
+  width: 85%;
+  margin: 10px 0;
+  font-size: 14px;
+}
+
+.buttons{
+    position: absolute;
+    left: 45%;
+    top: 74%;
+    width: 30%;
+}
+
+#download {
+ display:inline-block;
+}
+
+#google {
+ display: inline-block;
+}
+
+#footer {
+    bottom: 12px;
+    left: 321px;
+    position: absolute;
+    color: #1c5380;
+    font-weight: bold;
+}
+
+
+.text, .text1 {
+  display: inline-block;
+  margin: 10px;
+}
+
+.text1 {
+  color: grey;
+}
+/* vw = view-width >> can be used to resize on mobile */
+
+
+
+
+
+
+
