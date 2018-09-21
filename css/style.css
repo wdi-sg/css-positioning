@@ -8,4 +8,46 @@ body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   margin: 0;
+  background: linear-gradient(#06365f, white);
+}
+
+footer> nav {
+	text-align: center;
+	position: sticky;
+	margin-bottom: 50px;
+	
+}
+
+nav> a {
+	text-decoration: none;
+	color: #1c5380;
+}
+
+h2 {
+	color: #06365f;
+}
+
+#home{
+	float: right;
+	margin-top: 20px;
+}
+
+#copyright {
+	color: grey;
+}
+
+.columns{
+	display: flex;
+}
+.content {
+	display: inline;
+    float: right;
+    margin-top: 100px;
+    margin-right: 175px;
+    margin-bottom: 100px;
+}
+
+.sidepic {
+	display:inline;
+	margin: 100px;
 }
