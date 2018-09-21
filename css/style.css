@@ -9,3 +9,68 @@ body {
   font-size: 16px;
   margin: 0;
 }
+
+#main-holding-div {
+  position: relative;
+  height: auto;
+}
+
+#background-block {
+  height: 350px;
+  background: linear-gradient(to top, #1c5380, rgba(28, 83, 128, 0.7) );
+}
+
+#overlay {
+  position: absolute;
+  top: 0;
+  margin-top: 140px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+#insta-block-top-block {
+  margin-top: 35px;
+}
+
+#login-button {
+  color: white;
+  padding: 10px;
+  box-shadow: 1px 1px 1px 1px #06365f;
+  border-radius: 3px;
+}
+
+#paragraph-of-words {
+  background-image: url("../img/frame.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20px;
+  margin-top: 30px;
+}
+
+#paragraph-special-title {
+  color: #06365f;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 24px;
+}
+
+.special-paragraph-words {
+  color: #06365f;
+  font-weight: bold;
+}
+
+#footer {
+  margin-top: 100px;
+}
+
+#footer-link li {
+  display: inline-block;
+  padding: 0px 10px;
+  color: #1c5380;
+  font-weight: bold;
+}
+
+#instagram-copyright {
+  color: grey;
+}
