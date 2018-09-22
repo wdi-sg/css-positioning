@@ -5,7 +5,103 @@ light blue: #1c5380
 */
 
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Proxima Nova", Helvetica, Arial, sans-serif;
   font-size: 16px;
   margin: 0;
+}
+
+h2 {
+  color: #1c5380
+}
+
+div#gradient {
+background: url("../img/bgtile.png");
+background-repeat: repeat;
+width: 100%;
+  height: 300px;
+  z-index: +1
+}
+
+.wrapper {
+top: 100px;
+left: 300px;
+display: inline-block;
+position: relative;
+}
+
+.iphone {
+  float:left;
+}
+
+.display {
+  width: 35vw;
+}
+#display-area {
+  margin-left: 30px;
+  padding: 10px;
+  display: inline-block;
+  float: right;
+}
+
+#logo-image {
+  float: left;
+}
+
+#login-display {
+  width: 80px;
+  height: 35px;
+  background-image: linear-gradient(to top, #124f74, #a3bfe4);
+  display: block;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  margin-left: 5px;
+  float: right;
+  align-items: flex-start;
+  position: relative;
+}
+
+#home-img {
+  margin-top: 5px
+}
+
+#login {
+  color: #e6eded;
+  font-weight: bold;
+  margin-left: 2px;
+  margin-bottom: 5px;
+}
+
+#brand-display-area {
+  float:left;
+  width: 35vw;
+  padding: 5px;
+}
+
+#text-display {
+  width:100%;
+  height: 100%;
+  padding: 10px 30px 10px 30px;
+  background-color: white;
+  border-radius: 5px;
+  margin-top: 100px;
+  box-shadow: -2px -2px 5px #969ca2;
+}
+
+div#footer {
+  display: inline-block;
+  position: absolute;
+  top: 90%;
+  left: 20%;
+  text-align: center;
+  width: 70vw;
+}
+
+#footer a {
+  color: #1c5380;
+  font-size: 0.8rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 5px
 }
