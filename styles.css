@@ -1,0 +1,147 @@
+body {
+    margin: auto;
+    max-width: 70%;
+    
+}
+
+.main {
+    margin-top: 80px;
+    margin-left: 20px;
+    /* width: 100%; */
+    /* display: inline-block; */
+    /* vertical-align: top; */
+}
+
+.main-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 20%;
+    background-color: rgb(55, 106, 148);
+    padding: 50px;
+    z-index: -1;
+}
+
+
+.main-phone {
+    /* float: left; */
+    display: inline-block;
+    width: 43%;
+    
+}
+
+.main-content {
+    
+    vertical-align: top;
+    display: inline-block;
+    width: 49%;
+    margin-top: 10px;
+    margin-left: 3px;
+}
+
+.main-content-brand {
+    display: block;    
+    margin: 2px;
+}
+
+.main-content-brand-logo {
+    vertical-align: middle;
+    display: inline-block;
+    width: 60%;
+}
+
+.main-content-brand-home {
+    display: inline-block;
+    background-color: rgb(74, 133, 182);
+    width: 70px;
+    height: 35px;
+    outline: none;
+    box-shadow:inset 0px 1px 0px 0px rgb(55, 106, 148);
+    -moz-box-shadow:inset 0px 1px 0px 0px rgb(55, 106, 148);
+    -webkit-box-shadow: inset 0px 1px 0px 0px rgb(55, 106, 148);
+    border: 1px solid rgb(35, 68, 95);
+    cursor: pointer;
+    padding: 1px 2px;
+    text-decoration: none;
+    text-shadow:0px 1px 0px rgb(55, 106, 148);
+    border-radius: 3px;
+    font-weight: bold;
+    margin-left: 75px;
+}
+
+.main-content-brand-home>img {
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 3px;
+    padding-bottom: 13px;
+    width: 20px;
+}
+
+.main-content-brand-home>p {
+    display: inline-block;
+    font-size: 12px;
+    color: white;
+    vertical-align: bottom;
+}
+
+.main-content-desc {
+    background-image: url("img/frame.png");
+    padding: 3px 30px;
+    background-size: cover;
+    /* background-color: white; */
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.main-content-desc>h2 {
+    width: 230px;
+    color: rgb(16, 83, 114);
+    font-weight: bold;
+    font-size: 23px;
+} 
+
+.main-content-desc>p {
+    height: 230px;
+    font-size: 12px;
+    font-weight: 800;
+}
+
+span {
+    font-weight: bold;
+    
+}
+
+.main-content-app {
+    /* margin-left: 30px; */
+    margin: 5px;
+    padding: 20px;
+}
+
+.main-content-app>img {
+    padding: 20px;
+    width: 120px;
+    height: 40px;
+}
+
+footer {
+    margin: 40px;
+}
+.footer-items {
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    padding: 3px;
+    color: rgb(55, 106, 148);
+    font-size: 12px;
+    font-weight: bold;
+    margin: 5px;
+    text-transform: uppercase;
+}
+
+.copyright {
+    color: grey;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
