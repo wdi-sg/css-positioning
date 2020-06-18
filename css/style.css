@@ -8,4 +8,90 @@ body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   margin: 0;
+  background-color: white;
+  position: relative;
+  background-image: url("../img/bgtile.png");
+  background-repeat: repeat-x;
 }
+
+h2 {
+	color: #06365f;
+}
+
+.holder {
+	max-width: 900px;
+	display: flex;
+	justify-content: center;
+	margin: 0 auto;
+	margin-top: 40px;
+	width: 80px;
+	padding-top: 60px;
+}
+
+.right-side {
+	padding-left: 50px;
+	padding-top: 20px;
+}
+
+.homeLogin {
+	position: relative;
+}
+
+.button {
+   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+   background: linear-gradient(#1c5380, rgba(28, 83, 128, 0.7));
+   color: white;
+   position: absolute;
+   width:85px;
+   height:25px;
+   top: 20px;
+   right: 10px;
+   border: 5px solid #06365f;
+   border-radius: 4px;
+   padding: 0px 8px 9px 8px;
+}
+
+.button img {
+	margin-top: 10px;
+}
+
+.button span {
+	margin: 0px 0px 0px 8px;
+}
+
+.content {
+	background-image: url("../img/frame.png");
+	background-repeat: no-repeat;
+	width: 440px;
+	height: 400px;
+	margin-top: 15px;
+	padding: 10px 33px;
+}
+
+footer {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 10px;
+	font-weight: 500px;
+	padding-top: 20px;
+}
+
+footer ul li {
+	display: inline-block;
+	padding: 0px 6px;
+}
+
+a {
+	color: #06365f;
+	text-decoration: none;
+}
+
+footer ul li span {
+	color: #1c5380;
+	margin-left: 10px;
+}
+
+
+
+
