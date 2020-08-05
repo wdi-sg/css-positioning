@@ -51,13 +51,8 @@ bottom: 180px;
 margin: 0;
 padding: 0;
 }
-nav{
-display: inline;
-}
-.row-first{
-position: relative;
-top: 190px;
-}
+
+
 .footer{
 bottom: 0;
 height: 21%;
