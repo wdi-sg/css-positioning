@@ -3,9 +3,112 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
+html {
+    background:linear-gradient(#1c5380,#06365f);
+    height: 45%;
+    background-repeat: no-repeat;
+}
 
-body {
+body * {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   margin: 0;
+}
+
+.Description {
+    position: absolute;
+    color:black;
+    bottom: 175px;
+    left: 700px;
+
+}
+
+div .header {
+    position: absolute;
+    top: 25px;
+    left: 35px;
+    right: 5px;
+    font-size: 27px;
+    text-align: left;
+    max-width: 275px;
+    width: 100%;
+    color: #06365f;
+    font-weight: 700;
+}
+
+div .para {
+    position: absolute;
+    top: 115px;
+    left: 35px;
+    width: 100%;
+    max-width: 420px;
+    text-align: left
+}
+
+nav .phones {
+    position: absolute;
+    top: 110px;
+    left: 325px;
+}
+
+nav .brand {
+    position: absolute;
+    left: 700px;
+    top: 125px;
+}
+
+.login {
+    position: absolute;
+    left: 1080px;
+    top: 135px;
+    background: #1c5380;
+    border: solid;
+    border-width: 1px;
+    border-color:#06365f;
+    color:white;
+    font-weight: bold;
+    font-size:20px;
+    padding:10px;
+}
+
+nav .apple {
+    position: absolute;
+    left: 725px;
+    top: 565px;
+}
+
+nav .android {
+    position: absolute;
+    left: 910px;
+    top: 565px;
+}
+
+ul{
+    list-style-type: none
+}
+
+li{
+    position:relative;
+    top:700px;
+    left: 430px;
+    float: left;
+}
+
+li a{
+    display: block;
+    text-align: center;
+    padding:10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 11px;
+    color:#1c5380;
+    text-decoration: none;
+}
+
+.cr{
+    padding:10px;
+    color:gray;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: bold;
 }
