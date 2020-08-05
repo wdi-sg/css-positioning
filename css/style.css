@@ -8,4 +8,108 @@ body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   margin: 0;
+  background-color: #f1f1f1;
+  background-image: linear-gradient(#1c5380 90%, #06365f);
+  background-repeat: no-repeat;
+  background-size: auto 45%;
 }
+
+#important {
+  width: 100%;
+  margin: auto;
+  position: relative;
+  right: 100px;
+  text-align: center;
+}
+
+#left {
+  display: inline-block;
+  position: relative;
+  top: 50px;
+  left: 50px;
+}
+
+#right {
+  display: inline-block;
+  width: 500px;
+  position: relative;
+  left: 150px;
+  top: 50px;
+}
+
+.top {
+  display: inline-block;
+  text-align: left;
+}
+
+.brand {
+  position: relative;
+  right: 100px;
+}
+
+.home {
+  position: relative;
+  right: 5px;
+
+}
+
+button {
+  position: absolute;
+  top: 20px;
+  right: 10px;
+  width: 100px;
+  height: 35px;
+  background-image: linear-gradient(#1c5380 70%, #06365f);
+  color: #f1f1f1;
+  border-radius: 5px;
+  border: 1px solid #06365f;
+}
+
+.content {
+  background-color: #f1f1f1;
+  border-radius: 7px;
+  padding: 20px;
+}
+
+h2 {
+  font-size: 35px;
+  width: 400px;
+  color: #06365f;
+  margin-top: 0;
+  text-align: left;
+}
+
+span {
+  font-weight: bold;
+}
+
+p {
+  font-size: 18px;
+  text-align: left;
+}
+
+.store {
+  padding-right: 20px;
+  margin-top: 40px;
+  position: relative;
+  right: 50px;
+}
+
+footer {
+  position: relative;
+  width: 100%;
+  top: 200px;
+  text-align: center;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: grey;
+}
+
+.nav {
+  padding-right: 15px;
+  text-decoration: none;
+  color: #1c5380;
+
+}
+
