@@ -8,4 +8,123 @@ body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   margin: 0;
+
+}
+
+
+
+.top-bg{
+      background-image: url(../img/bgtile.png);
+    width:100vw;
+    height:300px;
+}
+
+.phone-img{
+    position:fixed;
+    top:100px;
+    left:200px;
+}
+
+.brand{
+    position:fixed;
+    top:120px;
+    left:570px;
+}
+
+.login-button{
+    width:75px;
+    height:35px;
+
+    font-size:12px;
+    position:fixed;
+    top:140px;
+    right:288px;
+    background-color:#3e739c;
+    border: 0.1px solid black;
+
+  box-shadow: 1px 1px 2px black;
+  color:white;
+  padding-top:3px;
+  padding-left:3px;
+}
+
+.card{
+    width:504px;
+    height:284px;
+    position:relative;
+    left:570px;
+    top:-80px;
+    background-image: url(../img/frame.png);
+
+
+}
+
+h3 {
+    position:absolute;
+    left:70px;
+    top:15px;
+    word-wrap:break-word;
+    color:#06365f;
+}
+
+p{
+    font-size:14px;
+    width:380px;
+}
+
+#para1{
+    position:absolute;
+    left:70px;
+    top:80px;
+}
+
+#para2{
+    position:absolute;
+    left:70px;
+    top:135px;
+}
+
+#para3{
+    position:absolute;
+    left:70px;
+    top:220px;
+}
+
+.badge-iphone{
+    position:absolute;
+    bottom:-50px;
+    left:70px;
+}
+
+.badge-android{
+    position:absolute;
+    bottom:-50px;
+    left:260px;
+}
+
+
+nav{
+    position:fixed;
+    bottom: 100px;
+    left:420px;
+}
+
+nav > a {
+    text-decoration:none;
+    color:#1c5380;
+    margin-left:5px;
+    text-transform: capitalize;
+    font-weight:bold;
+}
+
+nav > div {
+ display: inline-block;
+ margin-left:20px;
+     font-weight:bold;
+     color:#ACACAC;
+}
+
+nav {
+    font-size:12px;
+
 }
