@@ -67,7 +67,8 @@ body{
 
 .card-info{
   padding: 20px 40px;
-  background: url('../img/frame.png') no-repeat 50% 0;
+  background: url('../img/frame.png') no-repeat;
+  background-size: contain;
 }
 
 .card-info > h1 {
