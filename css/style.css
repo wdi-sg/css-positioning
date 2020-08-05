@@ -9,3 +9,118 @@ body {
   font-size: 16px;
   margin: 0;
 }
+
+.background {
+  background-image: linear-gradient(#1c5380, #06365f);
+  background-repeat: no-repeat;
+  height: 380px;
+}
+
+.phones {
+  margin: 50px;
+  position: relative;
+  left: 350px;
+  top: 145px;
+}
+
+.brand {
+  position: relative;
+  bottom: 330px;
+  left: 350px;
+}
+
+.log-in {
+  border: 1px solid #06365f;
+  border-radius: 3px;
+  background-image: linear-gradient(#1c5380, #06365f);
+  background-repeat: no-repeat;
+  width: 75px;
+  height: 15px;
+  padding: 15px;
+  color: #000;
+  position: relative;
+  bottom: 400px;
+  left: 1160px;
+}
+
+.log-in img {
+  position: relative;
+  right: 5px;
+  bottom: 4px;
+}
+
+.log-in-child {
+  position: absolute;
+  /*background-color: red;*/
+  color: white;
+  bottom: 0px;
+  right: 20px;
+}
+
+/*.home {
+  position: relative;
+  bottom: 380px;
+  left: 1200px;
+}*/
+
+.about {
+  padding: 20px;
+  color: #000;
+  position: relative;
+  bottom: 385px;
+  left: 750px;
+}
+
+.bio h2 {
+  position: relative;
+  width: 250px;
+  left: 50px;
+  bottom: 250px;
+  color: #06365f;
+}
+
+.bio p {
+  position: relative;
+  width: 400px;
+  left: 50px;
+  bottom: 250px;
+  font-size: 15px;
+  color: #616161;
+  /*font-family: helvetica;*/
+}
+
+.bio img {
+  position: relative;
+  width: 160px;
+  left: 50px;
+  bottom: 210px;
+}
+
+nav {
+  margin: 0 auto;
+}
+
+r
+ul {
+  list-style-type: none;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline;
+}
+
+nav p {
+  display: inline;
+}
+
+
+/*.frame {
+  position: relative;
+  left: 820px;
+  bottom: 390px;
+}*/
+
+
