@@ -8,4 +8,76 @@ body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   margin: 0;
+  background: -webkit-linear-gradient(top, rgba(28,83,128,1) 0%, rgba(6,54,95,1) 54%, rgba(255,255,255,1) 54%, rgba(255,255,255,1) 78%, rgba(255,255,255,1) 100%) no-repeat;
+}
+
+.container {
+  
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.igbutton:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.phone{
+float: left;
+width: 50%;
+position: relative;
+top: 300px;
+}
+.subheading{
+color: #1c5380;
+width: 70%;
+}
+.textbox{
+font-size: 16px;
+background: white;
+border-radius: 5px;
+padding: 5px 30px 30px 30px;
+margin-top: 30px;
+}
+
+.right{
+float: right;
+width: 500px;
+position: relative;
+bottom: 180px;
+}
+
+.igbutton{
+margin: 0;
+padding: 0;
+}
+
+
+.footer{
+bottom: 0;
+height: 21%;
+position: absolute;
+margin-left: 12%;
+}
+.leftnav {
+position: relative;
+float: left;
+width: 50%;
+}
+.rightnav {
+float: right;
+position: relative;
+width: 37%;
+top: 15px;
+
+
+}
+#loginbutton{
+color: white;
+margin-top: 10%;
+margin-left: 140px;
+background: #478fca;
+border-radius: 3px;
+border: none;
+padding: 3px;
 }
