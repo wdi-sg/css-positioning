@@ -4,8 +4,48 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+/*Universal Styles*/
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   margin: 0;
+}
+div {
+
+}
+a {
+  text-decoration: none;
+}
+p {
+  background-image:"img/frame.png";
+  }
+
+nav span {
+  display: inline;
+  font-size: 16px;
+  font-weight: 300px;
+  letter-spacing: 2px;
+  margin:10px 0px 10px 0px;
+  text-align: center;
+}
+
+h1 {
+  color:#06365f;
+}
+
+nav a {
+  color:#06365f;
+}
+
+.buttons {
+  position:relative;
+  margin:150px auto;
+}
+
+.one {
+ margin:100px auto;
+}
+
+.two {
+margin:0px 20px 100px 50px;
 }
