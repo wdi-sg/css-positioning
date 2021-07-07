@@ -8,4 +8,149 @@ body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   margin: 0;
+  background
+}
+
+/*header {
+	background: linear-gradient(rgba(59,89,152,0.8), rgb(59,89,152,1));
+	height: 300px;
+	width: 100%;
+}*/
+
+h1.logo {
+	color: white;
+    font-family: 'Pacifico', cursive;
+    font-weight: 100;
+    display: block;
+    position: absolute;
+    top: 120px;
+    left: 50%;
+}
+
+div.background {
+	height: 400px;
+    width: 100%;
+    background-image: url(../img/bgtile.png);
+    background-size: auto 300px;
+    background-repeat: repeat-x;
+    position: fixed;
+}
+
+div.center-box {
+	position: relative;
+    width: 60%;
+    top: 110px;
+    /*left: 100px;*/
+    margin: 0 auto;
+}
+
+div.phones {
+	display: inline-block;
+    position: relative;
+    width: 40%;
+    float: left;
+}
+
+div.right-box {
+	display: inline-block;
+    position: relative;
+    width: 60%;
+    /*float: right;*/
+}
+
+div.brand {
+	display: inline-block;
+    position: relative;
+    float: left;
+    top: 20px;
+    /*left: 50px;*/
+}
+
+div.login {
+	display: inline-block;
+    position: relative;
+    /*float: right;*/
+    top: 37px;
+    left: 60px;
+    height: 42px;
+    width: 120px;
+    background: linear-gradient(rgba(83, 135, 178, 0.7), rgb(83, 135, 178, 1));
+    border-radius: 5px;
+    border: 1px solid #3a5787;
+    padding: 0;
+    color: white;
+}
+
+div.login img {
+    vertical-align: sub;
+    margin-right: 10px;
+}
+
+div.login p {
+	text-align: center;
+    font-weight: 600;
+    display: inline-block;
+    position: relative;
+    left: 15px;
+    top: -5px;
+}
+
+div.login a {
+	color: white;
+	text-decoration: none;
+}
+
+div.caption {
+	display: inline-block;
+    position: relative;
+    clear: both;
+    top: 36px;
+    height: 380px;
+    width: 440px;
+    background-image: url(../img/frame.png);
+    background-size: auto;
+    background-repeat: no-repeat;
+    padding: 20px 40px;
+}
+
+div.caption h2 {
+	color: #223759;
+}
+
+div.caption p {
+	line-height: 1.6;
+}
+
+span {
+	color: #223759;
+	font-weight: 600;
+}
+
+img.download {
+	margin-right: 20px;
+}
+
+div.footer {
+	position: relative;
+    clear: both;
+    top: 60px;
+}
+
+ul {
+	margin: 0 auto;
+    padding: 0 120px;
+}
+
+li {
+	display: inline-block;
+    margin-left: 20px;
+    color: rgb(182, 186, 193);
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: 600;
+}
+
+li a {
+	color: rgb(83, 135, 178);
+	text-decoration: none;
 }
