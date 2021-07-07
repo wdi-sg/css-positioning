@@ -4,8 +4,126 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
-body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  margin: 0;
+* {
+	box-sizing: border-box;
 }
+
+body {
+	/*background-image: url(../img/bgtile.png);
+	background-repeat: repeat-x;*/
+	background-color: #eeeeee;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	margin: 0;
+}
+
+.blue {
+	background-color: #386283;
+	background: linear-gradient(#567e9d, #386283);
+	width: 100%;
+	height: 280px;
+	position: absolute;
+	top: 0px;
+}
+
+main {
+	width: 870px;
+	height: 500px;
+	margin: 70px auto;
+	position: relative;
+}
+
+.logo {
+	position: absolute;
+	width: 500px;
+	right: 0px;
+	padding-top: 20px;
+}
+
+#login {
+	display: inline-block;
+	background-color: #1c5380;
+	background: linear-gradient(#6d93ae, #427092);
+	box-shadow: 0px 0.03em 0.03em 0.03em rgba(0, 0, 0, .4);
+	padding: 7px;
+	position: absolute;
+	right: 0px;
+	bottom: 25px;
+	border: 1px solid #427092;
+	border-radius: 3px;
+}
+
+#login span {
+	padding: 5px;
+	position: relative;
+    top: -4px;
+    color: #eeeeee;
+    font-weight: 400;
+    font-size: 14px;
+	text-transform: bold;
+}
+
+.content {
+	background-color: #ffffff;
+	background: linear-gradient(#ffffff, #eeeeee);
+	padding: 30px 40px;
+	position: absolute;
+	width: 500px;
+	right: 0px;
+	top: 120px;
+	bottom: 0px;
+	border-radius: 6px;
+
+}
+
+#badge {
+	margin-right: 20px;
+	bottom: 0px;
+	position: relative;
+	bottom: -3px;
+}
+
+.phone {
+	position: absolute;
+	left: 0px;
+
+}
+
+h1 {
+	margin-top: 0px;
+	font-size: 26px;
+	letter-spacing: 0.05em;
+	color: #06365f;
+}
+
+p {
+	font-size: 14px;
+	line-height: 20px;
+	letter-spacing: 0.03em;
+}
+
+footer {
+	font-size: 11px;
+	text-transform: uppercase;
+	position: relative;
+	text-align: center;
+}
+
+footer a {
+	text-decoration: none;
+	font-weight: 500;
+	color: #1c5380;
+	display: inline-block;
+	margin: 0 8px;
+}
+
+#copyright {
+	margin-left: 10px; 
+	color: #a9a9a9;
+}
+
+
+
+
+
+
