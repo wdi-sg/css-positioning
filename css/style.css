@@ -5,7 +5,87 @@ light blue: #1c5380
 */
 
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "proxima-nove, Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   margin: 0;
+}
+
+
+header {
+	background: linear-gradient(#1c5380, #06365f);
+	height: 240px;
+	align-content: right;
+}
+
+
+
+.everything {
+	margin: auto;
+	position: relative;
+	padding: 0px;
+	left: 250px;
+	top: -200px;
+}
+
+.phones {
+	display: inline-block;
+	margin: 50px;
+}
+
+.rest {
+	display: inline-block;
+	margin: 50px;
+	width: 500px; 
+	/*height: 1000px;*/
+	position: relative;
+	top: -100px;
+}
+
+.top {
+	/*position: absolute;*/
+	/*why does uncommenting this cus it to fuck up*/
+	/*top: 0px;*/
+}
+
+.body {
+	background-image: url("../img/frame.png");
+	margin: auto;
+	padding: 20px;
+}
+
+.para {
+	width: 500px; 
+}
+
+.apps {
+		padding: 50px 0px 50px 0px;
+}
+
+footer {
+	margin: auto;
+	position: relative;
+}
+
+p {
+	display: inline;
+}
+
+#foot {
+	margin: auto;
+	color: blue
+	font-family:sans-serif;
+	align-self: center;
+	position: relative;
+	left: 500px;
+}
+
+button {
+	position: relative;
+	left: 100px;
+	bottom: 35px;
+	vertical-align: middle;
+	background: linear-gradient(#1c5380, #06365f);
+	color: white;
+	outline-color: blue;
+	padding: 6px;
 }
